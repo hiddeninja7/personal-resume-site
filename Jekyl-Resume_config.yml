@@ -1,0 +1,40 @@
+# Basic settings
+title:  Resume
+description: A personal resume website showcasing my work experience and skills.
+baseurl: "" # The base URL for your site, e.g., "/your-repo-name" for GitHub Pages
+url: "https://hiddeninja7.github.io" # The base URL of your site, e.g., "https://hiddeninja7.github.io/personal-resume-site"
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-primer # Use any theme you prefer
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Author and site settings
+author:
+  name: Juan Smith
+  email: juanjesus.smith7@gmail.com
+
+# Social media links (optional)
+social:
+  github: hiddeninja7
+  linkedin: juan-smith-56b982225
+
+# Navigation and links
+collections:
+  # Custom collections can be added here
+
+# For GitHub Pages
+github:
+  repository: hiddeninja7/personal-resume-site
+
+# Pagination settings (if using pagination)
+paginate: 5
+paginate_path: "/page:num/"
